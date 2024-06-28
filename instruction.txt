@@ -1,0 +1,3 @@
+This code sets up an S3 bucket, uploads a file, configures public access, sets bucket ownership controls, and 
+applies a policy to allow public read access to the objects in the bucket. 
+Make sure to replace the placeholder values (access-key, secret-key, and file path) with actual values relevant to your environment.
