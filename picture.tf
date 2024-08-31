@@ -1,5 +1,5 @@
 provider "aws" {
-  region     = "us-east-1"
+  region     = "your region"
   access_key = "acess-key"
   secret_key = "secret-key"
 }
@@ -42,7 +42,7 @@ resource "aws_s3_bucket_policy" "allow_access_from_another_account" {
             "Effect":"Allow",
             "Principal":"*",
             "Action":"s3:GetObject",
-            "Resource":"arn:aws:s3:::circ-buk/*"
+            "Resource":"bucket arn link"
         }
     ]
 }
